@@ -1,0 +1,48 @@
+.bg-color{
+	background-color: #34496e;
+}
+.bg-color2{
+	background-color: #52BD44;
+}
+nav li {
+	display: inline-block;
+	margin-top: 8%;
+}
+nav a {
+	text-decoration: none;
+	padding: 0 20px;
+	color: white;	
+}
+nav a:hover {
+	color: black;
+}
+.boton{
+	width: 200px;
+	height: 30px;
+	border: 1px solid gray;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	padding: 4px;
+}
+.bg-color3{
+	background-color: #222968;
+}
+.bg-color4{
+	background-color: #2F255B
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
